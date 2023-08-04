@@ -5,7 +5,7 @@
 	
 	<config type="transpiler">
 		<prj-path>d:\git\other\WDL2CS\code</prj-path>
-		<vsproj>"WDL2CS.csproj"</vsproj>
+		<vsproj>WDL2CS.csproj</vsproj>
 		<out-path>out</out-path>
 	</config>
 

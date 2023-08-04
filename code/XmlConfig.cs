@@ -10,7 +10,7 @@ namespace WDLTransTest
 {
     class XmlConfig
     {
-        private string m_config;
+        private readonly string m_config;
         private XmlDocument m_xmlDoc;
 
         public XmlConfig(string config)

@@ -31,13 +31,15 @@ namespace WDLTransTest
         private int Execute (string cmd)
         {
             Process process = new Process();
-            ProcessStartInfo startInfo = new ProcessStartInfo();
-            //startInfo.WindowStyle = ProcessWindowStyle.Hidden;
-            startInfo.UseShellExecute = false;
-            //startInfo.CreateNoWindow = true;
-            startInfo.RedirectStandardOutput = true;
-            startInfo.FileName = "cmd.exe";
-            startInfo.Arguments = "/C " + cmd;
+            ProcessStartInfo startInfo = new ProcessStartInfo
+            {
+                //startInfo.WindowStyle = ProcessWindowStyle.Hidden;
+                UseShellExecute = false,
+                //startInfo.CreateNoWindow = true;
+                RedirectStandardOutput = true,
+                FileName = "cmd.exe",
+                Arguments = "/C " + cmd
+            };
             process.StartInfo = startInfo;
             process.Start();
             string output = process.StandardOutput.ReadToEnd();

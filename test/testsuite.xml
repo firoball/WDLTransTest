@@ -1,0 +1,15 @@
+<testsuite name = "root">
+	<testsuite file="test.xml"/>
+	<testsuite name="subsuite">
+		<test type="transpiler">
+			<wdl-path>A</wdl-path>
+			<wdl-file>B</wdl-file>
+			<out-path>C</out-path>
+			<cs-file>D</cs-file>
+			<log-file>E</log-file>
+			<classname>F</classname>
+		</test>
+	</testsuite>
+	<testsuite name="subsuite2">
+	</testsuite>
+</testsuite>

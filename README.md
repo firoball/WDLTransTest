@@ -84,10 +84,10 @@ Testsuites can be nested. It is also possible to reference testsuites from exter
 
 ## Tests
 
-Tests are mandatory to be children of a ```testsuite```. Test smust not be nested.
+Tests are mandatory to be children of a ```testsuite```. Tests must not be nested in each other.
 Via the ```type```attribute, the type of test can be specified.
 
-__Transpiler Test__
+### Transpiler Test
 
 ```
 <testsuite name="Kandoria">
@@ -103,7 +103,7 @@ __Transpiler Test__
 - ```<cs-file>```  Output C# file with path __(optional)__
 - ```<log-file>``` Output log file with path __(optional)__
 
-__Acknex API Test__
+### Acknex API Test
 
 ```
 <testsuite name="Kandoria">
@@ -121,13 +121,13 @@ __Acknex API Test__
 
 ## Quickstart
 
-1. Clone [WDL2CS](git@github.com:firoball/WDL2CS.git) and [AcknexCSApi](git@github.com:firoball/AcknexCSApi.git) repositories
-1. Clone [WdlTransTest](git@github.com:firoball/WDLTransTest.git) repository
+1. Clone [WDL2CS](git@github.com:firoball/WDL2CS.git) and [AcknexCSApi](git@github.com:firoball/AcknexCSApi.git) repositories.
+1. Clone [WdlTransTest](git@github.com:firoball/WDLTransTest.git) repository.
 1. Go to ```code``` folder of *WdlTransTest* and open ```WDLTransTest.sln```.
-1. Build Project. ```code\bin\Debug\ WDLTransTest.exe``` will be available after successful build.
+1. Build Project in debug mode. ```code\bin\Debug\WDLTransTest.exe``` will be available after successful build.
 1. Go to ```cfg```and adjust ```config.xml``` to your local setup. See [Environment configuration](#environment-configuration).
 1. Go to project root and execute ```test wok.xml``` to run the *Kandoria* sample test.
-1. If everything is configured alright, enjoy the show
+1. If everything is configured alright, enjoy the show.
 
 ## Legal stuff
 

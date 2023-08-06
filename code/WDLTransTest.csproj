@@ -42,14 +42,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ApiTest.cs" />
+    <Compile Include="Test\ApiTest.cs" />
     <Compile Include="Builder.cs" />
     <Compile Include="Logger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Test.cs" />
+    <Compile Include="Test\Test.cs" />
+    <Compile Include="Test\TestRunner.cs" />
     <Compile Include="TestSuite.cs" />
-    <Compile Include="TranspilerTest.cs" />
+    <Compile Include="Test\TranspilerTest.cs" />
     <Compile Include="XmlTest.cs" />
     <Compile Include="XmlConfig.cs" />
   </ItemGroup>

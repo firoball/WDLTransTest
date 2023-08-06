@@ -63,20 +63,9 @@ namespace WDLTransTest
                         TestSuite childTestSuite = new TestSuite(child, m_folder);
                         subresult = childTestSuite.Run();
                     }
-                    else if (XmlTest.IsTest(child, out string testName, out string type, out Dictionary<string, string> config))
+                    else if (XmlTest.IsTest(child, out string name, out string type, out Dictionary<string, string> config))
                     {
-                        Test test;
-                        switch (type)
-                        {
-                            case "transpiler":
-                                test = new TranspilerTest(testName, config);
-                                break;
-
-                            default:
-                                test = new Test(testName, config);
-                                break;
-                        }
-                        subresult = test.Run();
+                        subresult = TestRunner.Run(name, type, config);
                     }
                     else
                     {
@@ -90,7 +79,7 @@ namespace WDLTransTest
             {
                 result = 1;
             }
-            Logger.Result("Test Suite: " + m_name + " - ", result);
+            Logger.Result("TestSuite: " + m_name + " - ", result);
 
             return result;
         }

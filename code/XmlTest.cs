@@ -35,12 +35,13 @@ namespace WDLTransTest
                 return null;
         }
 
-        public static bool IsTest(XmlNode node, out string name, out Dictionary<string, string> config)
+        public static bool IsTest(XmlNode node, out string name, out string type, out Dictionary<string, string> config)
         {
             config = new Dictionary<string, string>();
             if (node != null && node.Name.Equals("test", StringComparison.CurrentCultureIgnoreCase) && node.HasChildNodes)
             {
                 name = GetName(node);
+                type = node.Attributes["type"].Value.ToLower();
                 foreach (XmlNode item in node.ChildNodes)
                 {
                     if (!config.ContainsKey(item.Name))
@@ -51,6 +52,7 @@ namespace WDLTransTest
             else
             {
                 name = string.Empty;
+                type = string.Empty;
                 return false;
             }
         }

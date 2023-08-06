@@ -43,9 +43,9 @@ namespace WDLTransTest
             }
         }
 
-        public int Execute()
+        public int Run()
         {
-            Logger.Info("Running Test Suite: " + m_name);
+            Logger.Info("Running TestSuite: " + m_name);
             int result = 0;
             if (m_valid)
             {
@@ -56,24 +56,34 @@ namespace WDLTransTest
                     {
                         file = Path.Combine(m_folder, file);
                         TestSuite extTestSuite = new TestSuite(file);
-                        subresult = extTestSuite.Execute();
+                        subresult = extTestSuite.Run();
                     }
                     else if (XmlTest.IsTestSuite(child))
                     {
                         TestSuite childTestSuite = new TestSuite(child, m_folder);
-                        subresult = childTestSuite.Execute();
+                        subresult = childTestSuite.Run();
                     }
-                    else if (XmlTest.IsTest(child, out string testName, out Dictionary<string, string> config))
+                    else if (XmlTest.IsTest(child, out string testName, out string type, out Dictionary<string, string> config))
                     {
-                        Test test = new Test(testName, config);
-                        subresult = test.Execute();
+                        Test test;
+                        switch (type)
+                        {
+                            case "transpiler":
+                                test = new TranspilerTest(testName, config);
+                                break;
+
+                            default:
+                                test = new Test(testName, config);
+                                break;
+                        }
+                        subresult = test.Run();
                     }
                     else
                     {
                         subresult = 0;
                         //unknown node - ignore
                     }
-                    result = subresult > result ? subresult : result;
+                    result = subresult != 0 ? subresult : result;
                 }
             }
             else

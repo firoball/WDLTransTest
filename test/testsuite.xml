@@ -1,13 +1,11 @@
-<testsuite name = "root">
+<testsuite name="root">
+	<testsuite file="wok.xml"/>
 	<testsuite file="test.xml"/>
 	<testsuite name="subsuite">
-		<test type="transpiler">
-			<wdl-path>A</wdl-path>
-			<wdl-file>B</wdl-file>
-			<out-path>C</out-path>
-			<cs-file>D</cs-file>
-			<log-file>E</log-file>
-			<classname>F</classname>
+		<test name="Example" type="transpiler">
+			<wdl-file></wdl-file>
+			<cs-file></cs-file>
+			<log-file></log-file>
 		</test>
 	</testsuite>
 	<testsuite name="subsuite2">

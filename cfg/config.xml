@@ -7,12 +7,12 @@
 	<config type="transpiler">
 		<prj-path>d:\git\other\WDL2CS\code</prj-path>
 		<vsproj>WDL2CS.csproj</vsproj>
-		<out-path>out</out-path>
+		<out-path>out\build</out-path>
 	</config>
 
 	<config type="api">
 		<prj-path>d:\git\other\AcknexCSApi\Acknex3Api</prj-path>
 		<vsproj>Acknex3Api.csproj</vsproj>
-		<out-path>out</out-path>
+		<out-path>out\build</out-path>
 	</config>
 </environment>

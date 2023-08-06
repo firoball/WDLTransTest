@@ -1,0 +1,7 @@
+<testsuite name="Kandoria">
+	<test name="Kandoria" type="transpiler">
+		<wdl-file>wdl\wok\game.wdl</wdl-file>
+		<cs-file>out\cs\wok\game.cs</cs-file>
+		<log-file>out\log\wok\game.log</log-file>
+	</test>
+</testsuite>

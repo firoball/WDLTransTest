@@ -1,0 +1,1621 @@
+REGION border {
+	FLOOR_HGT 40;
+	CEIL_HGT 40;
+	FLOOR_TEX stfloor1_tex;
+	CEIL_TEX stfloor1_tex;
+	EACH_TICK startlev;
+	CLIP_DIST 0;}
+
+REGION R12_0 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  0;
+	CEIL_HGT  12;
+}
+
+REGION R12_2 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  2;
+	CEIL_HGT  14;
+}
+
+REGION R12_4 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  4;
+	CEIL_HGT  16;
+}
+
+REGION R12_6 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  6;
+	CEIL_HGT  18;
+}
+
+REGION R12_8 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  8;
+	CEIL_HGT  20;
+}
+
+REGION R12_10 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  10;
+	CEIL_HGT  22;
+}
+
+REGION R12_12 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  12;
+	CEIL_HGT  24;
+}
+
+REGION R12_14 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  14;
+	CEIL_HGT  26;
+}
+
+REGION R12_16 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  16;
+	CEIL_HGT  28;
+}
+
+REGION R12_18 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  18;
+	CEIL_HGT  30;
+}
+
+REGION R12_20 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  20;
+	CEIL_HGT  32;
+}
+
+REGION R12_22 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  22;
+	CEIL_HGT  34;
+}
+
+REGION R12_24 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  24;
+	CEIL_HGT  36;
+}
+
+REGION R12_26 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  26;
+	CEIL_HGT  38;
+}
+
+REGION R12_28 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  28;
+	CEIL_HGT  40;
+}
+
+REGION R12_30 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  30;
+	CEIL_HGT  42;
+}
+
+REGION R12_32 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  32;
+	CEIL_HGT  44;
+}
+
+REGION R12_34 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  34;
+	CEIL_HGT  46;
+}
+
+REGION R12_36 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  36;
+	CEIL_HGT  48;
+}
+
+REGION R12_38 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  38;
+	CEIL_HGT  50;
+}
+
+REGION R12_40 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  40;
+	CEIL_HGT  52;
+}
+
+REGION R12_42 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  42;
+	CEIL_HGT  54;
+}
+
+REGION R12_44 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  44;
+	CEIL_HGT  56;
+}
+
+REGION R12_46 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  46;
+	CEIL_HGT  58;
+}
+
+REGION R12_48 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  48;
+	CEIL_HGT  60;
+}
+
+REGION R12_50 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  50;
+	CEIL_HGT  62;
+}
+
+REGION R10_0 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  0;
+	CEIL_HGT  10;
+}
+
+REGION R10_2 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  2;
+	CEIL_HGT  12;
+}
+
+REGION R10_4 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  4;
+	CEIL_HGT  14;
+}
+
+REGION R10_6 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  6;
+	CEIL_HGT  16;
+}
+
+REGION R10_8 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  8;
+	CEIL_HGT  18;
+}
+
+REGION R10_10 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  10;
+	CEIL_HGT  20;
+}
+
+REGION R10_12 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  12;
+	CEIL_HGT  22;
+}
+
+REGION R10_14 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  14;
+	CEIL_HGT  24;
+}
+
+REGION R10_16 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  16;
+	CEIL_HGT  26;
+}
+
+REGION R10_18 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  18;
+	CEIL_HGT  28;
+}
+
+REGION R10_20 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  20;
+	CEIL_HGT  30;
+}
+
+REGION R10_22 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  22;
+	CEIL_HGT  32;
+}
+
+REGION R10_24 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  24;
+	CEIL_HGT  34;
+}
+
+REGION R10_26 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  26;
+	CEIL_HGT  36;
+}
+
+REGION R10_28 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  28;
+	CEIL_HGT  38;
+}
+
+REGION R10_30 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  30;
+	CEIL_HGT  40;
+}
+
+REGION R10_32 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  32;
+	CEIL_HGT  42;
+}
+
+REGION R10_34 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  34;
+	CEIL_HGT  44;
+}
+
+REGION R10_36 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  36;
+	CEIL_HGT  46;
+}
+
+REGION R10_38 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  38;
+	CEIL_HGT  48;
+}
+
+REGION R10_40 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  40;
+	CEIL_HGT  50;
+}
+
+REGION R10_42 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  42;
+	CEIL_HGT  52;
+}
+
+REGION R10_44 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  44;
+	CEIL_HGT  54;
+}
+
+REGION R10_46 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  46;
+	CEIL_HGT  56;
+}
+
+REGION R10_48 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  48;
+	CEIL_HGT  58;
+}
+
+REGION R10_50 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  50;
+	CEIL_HGT  60;
+}
+
+REGION R20_0 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  0;
+	CEIL_HGT  20;
+}
+
+REGION R20_2 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  2;
+	CEIL_HGT  22;
+}
+
+REGION R20_4 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  4;
+	CEIL_HGT  24;
+}
+
+REGION R20_6 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  6;
+	CEIL_HGT  26;
+}
+
+REGION R20_8 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  8;
+	CEIL_HGT  28;
+}
+
+REGION R20_10 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  10;
+	CEIL_HGT  30;
+}
+
+REGION R20_12 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  12;
+	CEIL_HGT  32;
+}
+
+REGION R20_14 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  14;
+	CEIL_HGT  34;
+}
+
+REGION R20_16 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  16;
+	CEIL_HGT  36;
+}
+
+REGION R20_18 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  18;
+	CEIL_HGT  38;
+}
+
+REGION R20_20 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  20;
+	CEIL_HGT  40;
+}
+
+REGION R20_22 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  22;
+	CEIL_HGT  42;
+}
+
+REGION R20_24 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  24;
+	CEIL_HGT  44;
+}
+
+REGION R20_26 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  26;
+	CEIL_HGT  46;
+}
+
+REGION R20_28 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  28;
+	CEIL_HGT  48;
+}
+
+REGION R20_30 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  30;
+	CEIL_HGT  50;
+}
+
+REGION R20_32 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  32;
+	CEIL_HGT  52;
+}
+
+REGION R20_34 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  34;
+	CEIL_HGT  54;
+}
+
+REGION R20_36 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  36;
+	CEIL_HGT  56;
+}
+
+REGION R20_38 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  38;
+	CEIL_HGT  58;
+}
+
+REGION R20_40 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  40;
+	CEIL_HGT  60;
+}
+
+REGION R20_42 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  42;
+	CEIL_HGT  62;
+}
+
+REGION R20_44 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  44;
+	CEIL_HGT  64;
+}
+
+REGION R20_46 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  46;
+	CEIL_HGT  66;
+}
+
+REGION R20_48 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  48;
+	CEIL_HGT  68;
+}
+
+REGION R20_50 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  50;
+	CEIL_HGT  70;
+}
+
+REGION R8_0 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  0;
+	CEIL_HGT  8;
+}
+
+REGION R8_2 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  2;
+	CEIL_HGT  10;
+}
+
+REGION R8_4 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  4;
+	CEIL_HGT  12;
+}
+
+REGION R8_6 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  6;
+	CEIL_HGT  14;
+}
+
+REGION R8_8 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  8;
+	CEIL_HGT  16;
+}
+
+REGION R8_10 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  10;
+	CEIL_HGT  18;
+}
+
+REGION R8_12 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  12;
+	CEIL_HGT  20;
+}
+
+REGION R8_14 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  14;
+	CEIL_HGT  22;
+}
+
+REGION R8_16 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  16;
+	CEIL_HGT  24;
+}
+
+REGION R8_18 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  18;
+	CEIL_HGT  26;
+}
+
+REGION R8_20 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  20;
+	CEIL_HGT  28;
+}
+
+REGION R8_22 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  22;
+	CEIL_HGT  30;
+}
+
+REGION R8_24 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  24;
+	CEIL_HGT  32;
+}
+
+REGION R8_26 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  26;
+	CEIL_HGT  34;
+}
+
+REGION R8_28 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  28;
+	CEIL_HGT  36;
+}
+
+REGION R8_30 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  30;
+	CEIL_HGT  38;
+}
+
+REGION R8_32 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  32;
+	CEIL_HGT  40;
+}
+
+REGION R8_34 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  34;
+	CEIL_HGT  42;
+}
+
+REGION R8_36 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  36;
+	CEIL_HGT  44;
+}
+
+REGION R8_38 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  38;
+	CEIL_HGT  46;
+}
+
+REGION R8_40 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  40;
+	CEIL_HGT  48;
+}
+
+REGION R8_42 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  42;
+	CEIL_HGT  50;
+}
+
+REGION R8_44 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  44;
+	CEIL_HGT  52;
+}
+
+REGION R8_46 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  46;
+	CEIL_HGT  54;
+}
+
+REGION R8_48 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  48;
+	CEIL_HGT  56;
+}
+
+REGION R8_50 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  50;
+	CEIL_HGT  58;
+}
+
+REGION R8_1 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  1;
+	CEIL_HGT  9;
+}
+
+REGION R8_3 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  3;
+	CEIL_HGT  11;
+}
+
+REGION R8_5 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  5;
+	CEIL_HGT  13;
+}
+
+REGION R8_7 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  7;
+	CEIL_HGT  15;
+}
+
+REGION R8_9 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  9;
+	CEIL_HGT  17;
+}
+
+REGION R8_11 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  11;
+	CEIL_HGT  19;
+}
+
+REGION R8_13 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  13;
+	CEIL_HGT  21;
+}
+
+REGION R8_15 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  15;
+	CEIL_HGT  23;
+}
+
+REGION R8_17 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  17;
+	CEIL_HGT  25;
+}
+
+REGION R8_19 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  19;
+	CEIL_HGT  27;
+}
+REGION L12_0 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  0;
+	CEIL_HGT  12;
+	FLAGS LIFTED;
+}
+
+REGION L12_2 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  2;
+	CEIL_HGT  14;
+	FLAGS LIFTED;
+}
+
+REGION L12_4 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  4;
+	CEIL_HGT  16;
+	FLAGS LIFTED;
+}
+
+REGION L12_6 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  6;
+	CEIL_HGT  18;
+	FLAGS LIFTED;
+}
+
+REGION L12_8 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  8;
+	CEIL_HGT  20;
+	FLAGS LIFTED;
+}
+
+REGION L12_10 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  10;
+	CEIL_HGT  22;
+	FLAGS LIFTED;
+}
+
+REGION L12_12 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  12;
+	CEIL_HGT  24;
+	FLAGS LIFTED;
+}
+
+REGION L12_14 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  14;
+	CEIL_HGT  26;
+	FLAGS LIFTED;
+}
+
+REGION L12_16 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  16;
+	CEIL_HGT  28;
+	FLAGS LIFTED;
+}
+
+REGION L12_18 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  18;
+	CEIL_HGT  30;
+	FLAGS LIFTED;
+}
+
+REGION L12_20 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  20;
+	CEIL_HGT  32;
+	FLAGS LIFTED;
+}
+
+REGION L12_22 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  22;
+	CEIL_HGT  34;
+	FLAGS LIFTED;
+}
+
+REGION L12_24 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  24;
+	CEIL_HGT  36;
+	FLAGS LIFTED;
+}
+
+REGION L12_26 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  26;
+	CEIL_HGT  38;
+	FLAGS LIFTED;
+}
+
+REGION L12_28 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  28;
+	CEIL_HGT  40;
+	FLAGS LIFTED;
+}
+
+REGION L12_30 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  30;
+	CEIL_HGT  42;
+	FLAGS LIFTED;
+}
+
+REGION L12_32 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  32;
+	CEIL_HGT  44;
+	FLAGS LIFTED;
+}
+
+REGION L12_34 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  34;
+	CEIL_HGT  46;
+	FLAGS LIFTED;
+}
+
+REGION L12_36 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  36;
+	CEIL_HGT  48;
+	FLAGS LIFTED;
+}
+
+REGION L12_38 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  38;
+	CEIL_HGT  50;
+	FLAGS LIFTED;
+}
+
+REGION L12_40 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  40;
+	CEIL_HGT  52;
+	FLAGS LIFTED;
+}
+
+REGION L12_42 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  42;
+	CEIL_HGT  54;
+	FLAGS LIFTED;
+}
+
+REGION L12_44 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  44;
+	CEIL_HGT  56;
+	FLAGS LIFTED;
+}
+
+REGION L12_46 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  46;
+	CEIL_HGT  58;
+	FLAGS LIFTED;
+}
+
+REGION L12_48 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  48;
+	CEIL_HGT  60;
+	FLAGS LIFTED;
+}
+
+REGION L12_50 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  50;
+	CEIL_HGT  62;
+	FLAGS LIFTED;
+}
+
+REGION FC12_0 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  0;
+	CEIL_HGT  12;
+	FLAGS FLOOR_LIFTED,CEIL_LIFTED;
+}
+
+REGION FC12_2 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  2;
+	CEIL_HGT  14;
+	FLAGS FLOOR_LIFTED,CEIL_LIFTED;
+}
+
+REGION FC12_4 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  4;
+	CEIL_HGT  16;
+	FLAGS FLOOR_LIFTED,CEIL_LIFTED;
+}
+
+REGION FC12_6 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  6;
+	CEIL_HGT  18;
+	FLAGS FLOOR_LIFTED,CEIL_LIFTED;
+}
+
+REGION FC12_8 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  8;
+	CEIL_HGT  20;
+	FLAGS FLOOR_LIFTED,CEIL_LIFTED;
+}
+
+REGION FC12_10 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  10;
+	CEIL_HGT  22;
+	FLAGS FLOOR_LIFTED,CEIL_LIFTED;
+}
+
+REGION FC12_12 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  12;
+	CEIL_HGT  24;
+	FLAGS FLOOR_LIFTED,CEIL_LIFTED;
+}
+
+REGION FC12_14 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  14;
+	CEIL_HGT  26;
+	FLAGS FLOOR_LIFTED,CEIL_LIFTED;
+}
+
+REGION FC12_16 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  16;
+	CEIL_HGT  28;
+	FLAGS FLOOR_LIFTED,CEIL_LIFTED;
+}
+
+REGION FC12_18 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  18;
+	CEIL_HGT  30;
+	FLAGS FLOOR_LIFTED,CEIL_LIFTED;
+}
+
+REGION FC12_20 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  20;
+	CEIL_HGT  32;
+	FLAGS FLOOR_LIFTED,CEIL_LIFTED;
+}
+
+REGION FC12_22 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  22;
+	CEIL_HGT  34;
+	FLAGS FLOOR_LIFTED,CEIL_LIFTED;
+}
+
+REGION FC12_24 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  24;
+	CEIL_HGT  36;
+	FLAGS FLOOR_LIFTED,CEIL_LIFTED;
+}
+
+REGION FC12_26 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  26;
+	CEIL_HGT  38;
+	FLAGS FLOOR_LIFTED,CEIL_LIFTED;
+}
+
+REGION FC12_28 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  28;
+	CEIL_HGT  40;
+	FLAGS FLOOR_LIFTED,CEIL_LIFTED;
+}
+
+REGION FC12_30 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  30;
+	CEIL_HGT  42;
+	FLAGS FLOOR_LIFTED,CEIL_LIFTED;
+}
+
+REGION FC12_32 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  32;
+	CEIL_HGT  44;
+	FLAGS FLOOR_LIFTED,CEIL_LIFTED;
+}
+
+REGION FC12_34 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  34;
+	CEIL_HGT  46;
+	FLAGS FLOOR_LIFTED,CEIL_LIFTED;
+}
+
+REGION FC12_36 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  36;
+	CEIL_HGT  48;
+	FLAGS FLOOR_LIFTED,CEIL_LIFTED;
+}
+
+REGION FC12_38 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  38;
+	CEIL_HGT  50;
+	FLAGS FLOOR_LIFTED,CEIL_LIFTED;
+}
+
+REGION FC12_40 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  40;
+	CEIL_HGT  52;
+	FLAGS FLOOR_LIFTED,CEIL_LIFTED;
+}
+
+REGION FC12_42 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  42;
+	CEIL_HGT  54;
+	FLAGS FLOOR_LIFTED,CEIL_LIFTED;
+}
+
+REGION FC12_44 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  44;
+	CEIL_HGT  56;
+	FLAGS FLOOR_LIFTED,CEIL_LIFTED;
+}
+
+REGION FC12_46 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  46;
+	CEIL_HGT  58;
+	FLAGS FLOOR_LIFTED,CEIL_LIFTED;
+}
+
+REGION FC12_48 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  48;
+	CEIL_HGT  60;
+	FLAGS FLOOR_LIFTED,CEIL_LIFTED;
+}
+
+REGION FC12_50 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  50;
+	CEIL_HGT  62;
+	FLAGS FLOOR_LIFTED,CEIL_LIFTED;
+}
+
+REGION F2_0 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  0;
+	CEIL_HGT  2;
+	FLAGS FLOOR_LIFTED;
+}
+
+REGION F4_0 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  0;
+	CEIL_HGT  4;
+	FLAGS FLOOR_LIFTED;
+}
+
+REGION F6_0 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  0;
+	CEIL_HGT  6;
+	FLAGS FLOOR_LIFTED;
+}
+
+REGION F8_0 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  0;
+	CEIL_HGT  8;
+	FLAGS FLOOR_LIFTED;
+}
+
+REGION F10_0 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  0;
+	CEIL_HGT  10;
+	FLAGS FLOOR_LIFTED;
+}
+
+REGION F12_0 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  0;
+	CEIL_HGT  12;
+	FLAGS FLOOR_LIFTED;
+}
+
+REGION F14_0 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  0;
+	CEIL_HGT  14;
+	FLAGS FLOOR_LIFTED;
+}
+
+REGION F16_0 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  0;
+	CEIL_HGT  16;
+	FLAGS FLOOR_LIFTED;
+}
+
+REGION F18_0 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  0;
+	CEIL_HGT  18;
+	FLAGS FLOOR_LIFTED;
+}
+
+REGION F20_0 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  0;
+	CEIL_HGT  20;
+	FLAGS FLOOR_LIFTED;
+}
+
+REGION F22_0 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  0;
+	CEIL_HGT  22;
+	FLAGS FLOOR_LIFTED;
+}
+
+REGION F24_0 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  0;
+	CEIL_HGT  24;
+	FLAGS FLOOR_LIFTED;
+}
+
+REGION F26_0 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  0;
+	CEIL_HGT  26;
+	FLAGS FLOOR_LIFTED;
+}
+
+REGION F28_0 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  0;
+	CEIL_HGT  28;
+	FLAGS FLOOR_LIFTED;
+}
+
+REGION F30_0 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  0;
+	CEIL_HGT  30;
+	FLAGS FLOOR_LIFTED;
+}
+
+REGION F32_0 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  0;
+	CEIL_HGT  32;
+	FLAGS FLOOR_LIFTED;
+}
+
+REGION F34_0 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  0;
+	CEIL_HGT  34;
+	FLAGS FLOOR_LIFTED;
+}
+
+REGION F36_0 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  0;
+	CEIL_HGT  36;
+	FLAGS FLOOR_LIFTED;
+}
+
+REGION F38_0 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  0;
+	CEIL_HGT  38;
+	FLAGS FLOOR_LIFTED;
+}
+
+REGION F40_0 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  0;
+	CEIL_HGT  40;
+	FLAGS FLOOR_LIFTED;
+}
+
+REGION F42_0 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  0;
+	CEIL_HGT  42;
+	FLAGS FLOOR_LIFTED;
+}
+
+REGION F44_0 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  0;
+	CEIL_HGT  44;
+	FLAGS FLOOR_LIFTED;
+}
+
+REGION F46_0 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  0;
+	CEIL_HGT  46;
+	FLAGS FLOOR_LIFTED;
+}
+
+REGION F48_0 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  0;
+	CEIL_HGT  48;
+	FLAGS FLOOR_LIFTED;
+}
+
+REGION F50_0 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  0;
+	CEIL_HGT  50;
+	FLAGS FLOOR_LIFTED;
+}
+
+REGION C50_0 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  0;
+	CEIL_HGT  50;
+	FLAGS CEIL_LIFTED;
+}
+
+REGION C48_2 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  2;
+	CEIL_HGT  50;
+	FLAGS CEIL_LIFTED;
+}
+
+REGION C46_4 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  4;
+	CEIL_HGT  50;
+	FLAGS CEIL_LIFTED;
+}
+
+REGION C44_6 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  6;
+	CEIL_HGT  50;
+	FLAGS CEIL_LIFTED;
+}
+
+REGION C42_8 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  8;
+	CEIL_HGT  50;
+	FLAGS CEIL_LIFTED;
+}
+
+REGION C40_10 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  10;
+	CEIL_HGT  50;
+	FLAGS CEIL_LIFTED;
+}
+
+REGION C38_12 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  12;
+	CEIL_HGT  50;
+	FLAGS CEIL_LIFTED;
+}
+
+REGION C36_14 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  14;
+	CEIL_HGT  50;
+	FLAGS CEIL_LIFTED;
+}
+
+REGION C34_16 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  16;
+	CEIL_HGT  50;
+	FLAGS CEIL_LIFTED;
+}
+
+REGION C32_18 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  18;
+	CEIL_HGT  50;
+	FLAGS CEIL_LIFTED;
+}
+
+REGION C30_20 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  20;
+	CEIL_HGT  50;
+	FLAGS CEIL_LIFTED;
+}
+
+REGION C28_22 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  22;
+	CEIL_HGT  50;
+	FLAGS CEIL_LIFTED;
+}
+
+REGION C26_24 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  24;
+	CEIL_HGT  50;
+	FLAGS CEIL_LIFTED;
+}
+
+REGION C24_26 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  26;
+	CEIL_HGT  50;
+	FLAGS CEIL_LIFTED;
+}
+
+REGION C22_28 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  28;
+	CEIL_HGT  50;
+	FLAGS CEIL_LIFTED;
+}
+
+REGION C20_30 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  30;
+	CEIL_HGT  50;
+	FLAGS CEIL_LIFTED;
+}
+
+REGION C18_32 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  32;
+	CEIL_HGT  50;
+	FLAGS CEIL_LIFTED;
+}
+
+REGION C16_34 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  34;
+	CEIL_HGT  50;
+	FLAGS CEIL_LIFTED;
+}
+
+REGION C14_36 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  36;
+	CEIL_HGT  50;
+	FLAGS CEIL_LIFTED;
+}
+
+REGION C12_38 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  38;
+	CEIL_HGT  50;
+	FLAGS CEIL_LIFTED;
+}
+
+REGION C10_40 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  40;
+	CEIL_HGT  50;
+	FLAGS CEIL_LIFTED;
+}
+
+REGION C8_42 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  42;
+	CEIL_HGT  50;
+	FLAGS CEIL_LIFTED;
+}
+
+REGION C6_44 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  44;
+	CEIL_HGT  50;
+	FLAGS CEIL_LIFTED;
+}
+
+REGION C4_46 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  46;
+	CEIL_HGT  50;
+	FLAGS CEIL_LIFTED;
+}
+
+REGION C2_48 {
+	FLOOR_TEX stone1_tex;
+	CEIL_TEX stone1_tex;
+	FLOOR_HGT  48;
+	CEIL_HGT  50;
+	FLAGS CEIL_LIFTED;
+}
+

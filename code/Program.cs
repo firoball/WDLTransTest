@@ -13,7 +13,7 @@ namespace WDLTransTest
         {
             if (args.Length < 2)
             {
-                Console.WriteLine("Usage: WdlTransTest <config.xml> <testsuite.xml> [type1,type2,...]");
+                Console.WriteLine("Usage: " + typeof(Program).Assembly.GetName().Name + " <config.xml> <testsuite.xml> [type1,type2,...]");
             }
             else if (!File.Exists(args[0]))
             {
@@ -44,7 +44,7 @@ namespace WDLTransTest
             Builder transpilerBuilder = new Builder(transpiler);
             int result = transpilerBuilder.Build(out string product);
 
-            Logger.Result("Transpiler: ", result);
+            Logger.Result("Transpiler", result);
             return product;
         }
 
@@ -56,7 +56,7 @@ namespace WDLTransTest
             Builder apiBuilder = new Builder(api, true);
             int result = apiBuilder.Build(out string product);
 
-            Logger.Result("Acknex API DLL: ", result);
+            Logger.Result("Acknex API DLL", result);
             return product;
         }
 
@@ -79,7 +79,7 @@ namespace WDLTransTest
             TestSuite testSuite = new TestSuite(file);
             int testSuiteCode = testSuite.Run(filters);
 
-            Logger.Result("Tests: ", testSuiteCode);
+            Logger.Result("Tests", testSuiteCode);
         }
     }
 }

@@ -24,7 +24,7 @@ namespace WDLTransTest
         public int Run()
         {
             int result = 0;
-            Logger.Info("Running " + m_type + ": " + m_name);
+            Logger.Info("Running " + m_type + " " + m_name);
 
             Stopwatch watch = new Stopwatch();
             watch.Start();
@@ -42,7 +42,7 @@ namespace WDLTransTest
             watch.Stop();
             Console.WriteLine("Execution time: " + watch.Elapsed);
 
-            Logger.Result(m_type + ": " + m_name + " - ", result);
+            Logger.Result(m_type + " " + m_name, result);
             return result;
         }
 

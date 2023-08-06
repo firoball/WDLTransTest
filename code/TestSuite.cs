@@ -45,7 +45,7 @@ namespace WDLTransTest
 
         public int Run(string[] filters)
         {
-            Logger.Info("Running TestSuite: " + m_name);
+            Logger.Info("Running TestSuite " + m_name);
             int result = 0;
             if (m_valid)
             {
@@ -80,7 +80,7 @@ namespace WDLTransTest
             {
                 result = 1;
             }
-            Logger.Result("TestSuite: " + m_name + " - ", result);
+            Logger.Result("TestSuite " + m_name, result);
 
             return result;
         }

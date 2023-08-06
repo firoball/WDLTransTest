@@ -1,7 +1,12 @@
 <testsuite name="Kandoria">
-	<test name="Kandoria" type="transpiler">
+	<test type="transpiler">
 		<wdl-file>wdl\wok\game.wdl</wdl-file>
 		<cs-file>out\cs\wok\game.cs</cs-file>
-		<log-file>out\log\wok\game.log</log-file>
+		<log-file>out\log\wok\transpile.log</log-file>
+	</test>
+	<test type="api">
+		<cs-file>out\cs\wok\game.cs</cs-file>
+		<!--exe-file>out\log\wok\game.exe</exe-file//-->
+		<log-file>out\log\wok\api.log</log-file>
 	</test>
 </testsuite>

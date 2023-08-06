@@ -69,7 +69,7 @@ namespace WDLTransTest
 
         }
 
-        protected virtual int Execute(Dictionary<string, string> m_config, out string log)
+        protected virtual int Execute(Dictionary<string, string> config, out string log)
         {
             Console.WriteLine("No test execution specified!");
             log = string.Empty;

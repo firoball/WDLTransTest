@@ -43,7 +43,7 @@ namespace WDLTransTest
             }
         }
 
-        public int Run()
+        public int Run(string[] filters)
         {
             Logger.Info("Running TestSuite: " + m_name);
             int result = 0;
@@ -56,16 +56,17 @@ namespace WDLTransTest
                     {
                         file = Path.Combine(m_folder, file);
                         TestSuite extTestSuite = new TestSuite(file);
-                        subresult = extTestSuite.Run();
+                        subresult = extTestSuite.Run(filters);
                     }
                     else if (XmlTest.IsTestSuite(child))
                     {
                         TestSuite childTestSuite = new TestSuite(child, m_folder);
-                        subresult = childTestSuite.Run();
+                        subresult = childTestSuite.Run(filters);
                     }
                     else if (XmlTest.IsTest(child, out string name, out string type, out Dictionary<string, string> config))
                     {
-                        subresult = TestRunner.Run(name, type, config);
+                        if ((filters == null) || ((filters != null) && filters.Contains(type)))
+                            subresult = TestRunner.Run(name, type, config);
                     }
                     else
                     {

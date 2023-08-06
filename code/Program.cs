@@ -13,7 +13,7 @@ namespace WDLTransTest
         {
             if (args.Length < 2)
             {
-                Console.WriteLine("Usage: WdlTransTest <config.xml> <testsuite.xml>");
+                Console.WriteLine("Usage: WdlTransTest <config.xml> <testsuite.xml> [type1,type2,...]");
             }
             else if (!File.Exists(args[0]))
             {
@@ -29,7 +29,10 @@ namespace WDLTransTest
                 string transpilerProduct = BuildTranspiler(cfg);
                 string apiProduct = BuildApi(cfg);
                 SetupTests(transpilerProduct, apiProduct);
-                RunTests(args[1]);
+                string[] filters = null;
+                if (args.Length > 2)
+                    filters = args[2].Split(',');
+                RunTests(args[1], filters);
             }
         }
 
@@ -65,12 +68,16 @@ namespace WDLTransTest
             ApiTest.ApiPath = api; 
         }
 
-        public static void RunTests(string file)
+        public static void RunTests(string file, string[] filters)
         {
             Logger.Info("Running Tests");
+            if (filters != null)
+            {
+                Console.WriteLine("FILTERS ACTIVE: " + string.Join(" ", filters));
+            }
 
             TestSuite testSuite = new TestSuite(file);
-            int testSuiteCode = testSuite.Run();
+            int testSuiteCode = testSuite.Run(filters);
 
             Logger.Result("Tests: ", testSuiteCode);
         }

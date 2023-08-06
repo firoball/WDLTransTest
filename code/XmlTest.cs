@@ -75,43 +75,44 @@ namespace WDLTransTest
 
         public static bool IsTestSuite(XmlNode node)
         {
-            XmlAttribute attribute = node?.Attributes["file"];
             if (node != null &&
                 node.HasChildNodes &&
-                node.Name.Equals("testsuite", StringComparison.CurrentCultureIgnoreCase) &&
-                attribute == null)
+                node.Name.Equals("testsuite", StringComparison.CurrentCultureIgnoreCase)
+                )
             {
-                return true;
+                XmlAttribute attribute = node.Attributes["file"];
+                if (attribute == null)
+                {
+                    return true;
+                }
             }
-            else
-            {
-                return false;
-            }
+            return false;
         }
 
         public static bool IsReference(XmlNode node, out string file)
         {
-            XmlAttribute attribute = node?.Attributes["file"];
 
-            if (node != null && node.Name.Equals("testsuite", StringComparison.CurrentCultureIgnoreCase) && attribute != null)
+            if (node != null && node.Name.Equals("testsuite", StringComparison.CurrentCultureIgnoreCase))
             {
-                file = attribute.Value;
-                return true;
+                XmlAttribute attribute = node.Attributes["file"];
+                if (attribute != null)
+                {
+                    file = attribute.Value;
+                    return true;
+                }
             }
-            else
-            {
-                file = string.Empty;
-                return false;
-            }
+            file = string.Empty;
+            return false;
         }
 
         private static string GetName(XmlNode node)
         {
-            XmlAttribute attribute = node?.Attributes["name"];
+            XmlAttribute attribute = node.Attributes["name"];
             if (attribute != null)
                 return attribute.Value;
             else
-                return "(unnamed)";
+                return string.Empty;
+            //return "(unnamed)";
         }
 
     }

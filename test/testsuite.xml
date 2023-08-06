@@ -1,5 +1,4 @@
-<testsuite name="root">
-	<testsuite file="wok.xml"/>
+<testsuite name="Root">
 	<testsuite file="test.xml"/>
 	<testsuite name="subsuite">
 		<test name="Example" type="transpiler">
@@ -7,7 +6,5 @@
 			<cs-file></cs-file>
 			<log-file></log-file>
 		</test>
-	</testsuite>
-	<testsuite name="subsuite2">
 	</testsuite>
 </testsuite>

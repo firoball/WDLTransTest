@@ -65,7 +65,7 @@ namespace WDLTransTest
                     }
                     else if (XmlTest.IsTest(child, out string name, out string type, out Dictionary<string, string> config))
                     {
-                        if ((filters == null) || ((filters != null) && filters.Contains(type)))
+                        if ((filters == null) || ((filters != null) && filters.Contains(type.ToLower())))
                             subresult = TestRunner.Run(name, type, config);
                     }
                     else

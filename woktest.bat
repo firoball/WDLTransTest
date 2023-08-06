@@ -1,1 +1,0 @@
-code\bin\debug\WDLTransTest.exe cfg\config.xml test\wok.xml

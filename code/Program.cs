@@ -31,7 +31,7 @@ namespace WDLTransTest
                 SetupTests(transpilerProduct, apiProduct);
                 string[] filters = null;
                 if (args.Length > 2)
-                    filters = args[2].Split(',');
+                    filters = args[2].ToLower().Split(',');
                 RunTests(args[1], filters);
             }
         }

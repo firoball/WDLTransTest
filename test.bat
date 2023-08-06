@@ -1,1 +1,1 @@
-code\bin\debug\WDLTransTest.exe cfg\config.xml test\testsuite.xml
+code\bin\debug\WDLTransTest.exe cfg\config.xml test\%1 %2

@@ -1,17 +1,13 @@
 <testsuite>
 	<test type="transpiler">
-		<wdl-path></wdl-path>
 		<wdl-file></wdl-file>
-		<out-path></out-path>
 		<cs-file></cs-file>
 		<log-file></log-file>
-		<classname></classname>
 	</test>
 
 	<test type="api">
-		<cs-path></cs-path>
 		<cs-file></cs-file>
-		<out-path></out-path>
+		<exe-file></exe-file>
 		<log-file></log-file>
 	</test>
 </testsuite>

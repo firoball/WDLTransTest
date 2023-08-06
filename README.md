@@ -82,10 +82,11 @@ Testsuites can be nested. It is also possible to reference testsuites from exter
 </testsuite>
 ```
 
-## Tests
+## Test cases
 
-Tests are mandatory to be children of a ```testsuite```. Tests must not be nested in each other.
-Via the ```type```attribute, the type of test can be specified.
+Test cases are mandatory to be children of a ```testsuite```. Test cases must not be nested in each other.
+Via the ```type```attribute, the type of test case can be specified.
+The ```name```attribute may be used to give test cases specific names.
 
 ### Transpiler Test
 

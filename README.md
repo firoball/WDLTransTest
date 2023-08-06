@@ -20,7 +20,7 @@ Parameters:
 
 ```testsuite.xml``` Several test cases arranged in testsuites.
 
-```type1,type2,...``` Test type filters, e.g. ```transpiler``` or ```api```. By using a filter, only tests of the specified type will be executed.
+```type1,type2,...``` Test type filters, e.g. ```transpiler``` or ```api```. By using a filter, only tests of the specified types will be executed __(optional)__.
 
 ## Dependencies
 

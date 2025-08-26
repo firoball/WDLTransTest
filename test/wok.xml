@@ -3,6 +3,7 @@
 		<wdl-file>wdl\wok\game.wdl</wdl-file>
 		<cs-file>out\cs\wok\game.cs</cs-file>
 		<log-file>out\log\wok\transpile.log</log-file>
+		<!--options>-p</options//-->
 	</test>
 	<test type="api">
 		<cs-file>out\cs\wok\game.cs</cs-file>

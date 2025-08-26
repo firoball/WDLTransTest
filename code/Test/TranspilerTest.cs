@@ -4,7 +4,6 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace WDLTransTest
 {
@@ -103,10 +102,20 @@ namespace WDLTransTest
                             csfile = Path.GetFileNameWithoutExtension(wdlfile) + ".cs";
                         }
 
+                        cmd = s_transpilerPath + " " + wdlfile + " " + csfile;
+
                         //switch to WDL directory
                         Directory.SetCurrentDirectory(wdlpath);
 
                         cmd = s_transpilerPath + " " + wdlfile + " " + csfile;
+
+                        //append custom options
+                        if (config.TryGetValue("options", out string options))
+                        {
+                            Console.WriteLine("Options: " + options);
+                            cmd += " " + options;
+                        }
+
                         Console.WriteLine(cmd);
                     }
                     catch (Exception e)

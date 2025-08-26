@@ -107,8 +107,6 @@ namespace WDLTransTest
                         //switch to WDL directory
                         Directory.SetCurrentDirectory(wdlpath);
 
-                        cmd = s_transpilerPath + " " + wdlfile + " " + csfile;
-
                         //append custom options
                         if (config.TryGetValue("options", out string options))
                         {
